@@ -75,7 +75,7 @@ a {
   display: inline-block;
   border-radius: 50px;
   border: 2px solid #f2f2f2;
-  transition: 0.2s all;
+  transition: 0.4s all;
 }
 .card a:hover {
   color: #f2f2f2;
