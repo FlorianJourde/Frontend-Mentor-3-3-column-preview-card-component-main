@@ -39,7 +39,7 @@ a {
   color: $very-light-gray;
 }
 
-.cards {
+main {
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -119,9 +119,9 @@ a {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   .cards {
-    flex-direction: row;
+    display: flex;
     height: 500px;
 
     li:first-child {

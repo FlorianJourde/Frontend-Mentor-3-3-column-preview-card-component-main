@@ -33,16 +33,16 @@ a {
   color: #f2f2f2;
 }
 
-.cards {
+main {
   display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
 }
-.cards li:first-child {
+main li:first-child {
   border-radius: 8px 8px 0 0;
 }
-.cards li:last-child {
+main li:last-child {
   border-radius: 0 0 8px 8px;
 }
 
@@ -100,9 +100,9 @@ a {
   color: #004241;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   .cards {
-    flex-direction: row;
+    display: flex;
     height: 500px;
   }
   .cards li:first-child {
